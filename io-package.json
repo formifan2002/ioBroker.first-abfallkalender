@@ -1,0 +1,107 @@
+{
+	"common": {
+		"name": "abfallkalender",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Abfallkalender",
+		"titleLang": {
+			"en": "Abfallkalender",
+			"de": "Abfallkalender",
+			"ru": "Abfallkalender",
+			"pt": "Abfallkalender",
+			"nl": "Abfallkalender",
+			"fr": "Abfallkalender",
+			"it": "Abfallkalender",
+			"es": "Abfallkalender",
+			"pl": "Abfallkalender",
+			"zh-cn": "Abfallkalender"
+		},
+		"desc": {
+			"en": "Receive data from the waste calendar from abfall.io and abfallplus.de",
+			"de": "Receive data from the waste calendar from abfall.io and abfallplus.de",
+			"ru": "Receive data from the waste calendar from abfall.io and abfallplus.de",
+			"pt": "Receive data from the waste calendar from abfall.io and abfallplus.de",
+			"nl": "Receive data from the waste calendar from abfall.io and abfallplus.de",
+			"fr": "Receive data from the waste calendar from abfall.io and abfallplus.de",
+			"it": "Receive data from the waste calendar from abfall.io and abfallplus.de",
+			"es": "Receive data from the waste calendar from abfall.io and abfallplus.de",
+			"pl": "Receive data from the waste calendar from abfall.io and abfallplus.de",
+			"zh-cn": "Receive data from the waste calendar from abfall.io and abfallplus.de"
+		},
+		"authors": [
+			"formifan2002 <d.behrendt@web.de>"
+		],
+		"keywords": [
+			"waste",
+			"calender",
+			"Abfall",
+			"Kalender"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "abfallkalender.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/formifan2002/ioBroker.abfallkalender/main/admin/abfallkalender.png",
+		"readme": "https://github.com/formifan2002/ioBroker.abfallkalender/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "date-and-time",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json",
+			"tab": "materialize"
+		},
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "Abfallkalender",
+				"de": "Abfallkalender",
+				"ru": "Abfallkalender",
+				"pt": "Abfallkalender",
+				"nl": "Abfallkalender",
+				"fr": "Abfallkalender",
+				"it": "Abfallkalender",
+				"es": "Abfallkalender",
+				"pl": "Abfallkalender",
+				"zh-cn": "Abfallkalender"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"f_id_kommune": "",
+		"f_id_bezirk": "",
+		"f_id_strasse": "",
+		"WarnungUnterTagen": "3"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
